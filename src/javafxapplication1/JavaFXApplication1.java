@@ -29,6 +29,7 @@ public class JavaFXApplication1 extends Application {
             @Override
             public void handle(ActionEvent event) {
                 System.out.println("Hello World!");
+                System.out.println("Hello World!");
             }
         });
         
@@ -37,7 +38,7 @@ public class JavaFXApplication1 extends Application {
         
         Scene scene = new Scene(root, 300, 250);
         
-        primaryStage.setTitle("Hello World!");
+        primaryStage.setTitle("Hello Children!");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
